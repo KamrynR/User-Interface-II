@@ -70,11 +70,11 @@ nav {
 
 nav a {
     padding: 1%;
-    border: 1px;
+    border: 2px;
     border-color: black;
     border-style: solid;
     display: inline-block;
-    background-color: slategray;
+    background-color: whitesmoke;
     color: black;
     width: 80px;
     text-align: center;
@@ -82,7 +82,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: rgb(66, 67, 77);
+    background-color: rgb(56, 66, 77);
     color: white;
 }
 
@@ -142,7 +142,7 @@ h2 {
     text-align: center;
     border: 3px black;
     padding: 50px;
-    background-color: rgb(150, 150, 150);
+    background-color: slategrey;
 }
 
 .sectionFooter a {
@@ -150,13 +150,13 @@ h2 {
     border-style: solid;
     border-color: black;
     padding: 10px;
-    background-color: slategray;
+    background-color: whitesmoke;
     color: black;
     text-decoration: none;
 }
 
 .sectionFooter a:hover {
-    background-color: rgb(66, 67, 77);
+    background-color: rgb(56, 66, 77);
     color: white;
 }
 
