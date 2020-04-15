@@ -130,6 +130,8 @@ h2 {
     box-sizing: border-box;
     padding: 1%;
     padding-left: 0%;
+    min-width: 50px;
+    min-height: 50px;
 }
 
 #sec3Text {
@@ -168,4 +170,19 @@ img {
 
 .aboutMe {
     text-align: center;
+    padding: 2%;
+}
+
+.aboutImg {
+    margin-top: 1%;
+}
+
+.customHeader {
+    background-color: whitesmoke;
+    border-bottom: black;
+    border-style: solid;
+}
+
+.contactLinks {
+    padding: 1%;
 }
