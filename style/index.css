@@ -46,16 +46,40 @@ table {
 
 /* CODE STARTS HERE */
 
+/*
+html {
+    font-size: 62.5%;
+}
+*/
 .container {
-    margin: 0px;
     position: relative;
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 4rem;
     text-align: center;
     margin: auto;
     padding: 2%;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 250%;
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 180%;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 170%;
+        font-weight: bold;
+    }
 }
 
 nav {
@@ -92,6 +116,28 @@ h2 {
     padding: 1%;
     text-transform: uppercase;
 }
+
+
+@media (max-width: 800px) {
+    h2 {
+        font-size: 250%;
+    }
+}
+
+@media (max-width: 450px) {
+    h2 {
+        font-size: 160%;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 350px) {
+    h2 {
+        font-size: 145%;
+        font-weight: bold;
+    }
+}
+
 
 #sec1Text {
     font-size: 15px;
@@ -145,10 +191,11 @@ h2 {
     border: 3px black;
     padding: 50px;
     background-color: slategrey;
+    background-image: linear-gradient(to bottom right, slategrey, black);
 }
 
 .sectionFooter a {
-    border: 1px;
+    border: 2px;
     border-style: solid;
     border-color: black;
     padding: 10px;
