@@ -1,1 +1,235 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CODE STARTS HERE */
+
+/*
+html {
+    font-size: 62.5%;
+}
+*/
+.container {
+    position: relative;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 250%;
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 180%;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 350px) {
+    h1 {
+        font-size: 170%;
+        font-weight: bold;
+    }
+}
+
+nav {
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: white;
+    border-style: solid;
+}
+
+nav a {
+    padding: 1%;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    display: inline-block;
+    background-color: whitesmoke;
+    color: black;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(56, 66, 77);
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 800px) {
+    h2 {
+        font-size: 250%;
+    }
+}
+
+@media (max-width: 450px) {
+    h2 {
+        font-size: 160%;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 350px) {
+    h2 {
+        font-size: 145%;
+        font-weight: bold;
+    }
+}
+
+
+#sec1Text {
+    font-size: 15px;
+    text-align: left;
+    padding: 1%;
+    width: 85%;
+    height: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.section2 {
+    display: flex;
+}
+
+.section3 {
+    height: 450px;
+    width: 1500px;
+    margin-top: 0%;
+    border: 1px solid white;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    align-items: center;
+}
+
+.section3 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    box-sizing: border-box;
+    padding: 1%;
+    padding-left: 0%;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+#sec3Text {
+    padding: 2%;
+    text-align: left;
+    color: black;
+}
+
+.sectionFooter {
+    text-align: center;
+    border: 3px black;
+    padding: 50px;
+    background-color: slategrey;
+    background-image: linear-gradient(to bottom right, slategrey, black);
+}
+
+.sectionFooter a {
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+}
+
+.sectionFooter a:hover {
+    background-color: rgb(56, 66, 77);
+    color: white;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.aboutMe {
+    text-align: center;
+    padding: 2%;
+}
+
+.aboutImg {
+    margin-top: 1%;
+}
+
+.customHeader {
+    background-color: whitesmoke;
+    border-bottom: black;
+    border-style: solid;
+}
+
+.contactLinks {
+    padding: 1%;
+}
